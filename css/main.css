@@ -1,0 +1,287 @@
+body.page-acceulle {
+   
+  background-color: rgb(214, 212, 220);
+ 
+   
+
+ 
+  margin: 0 ;
+}
+
+  
+  
+
+div.title-box{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+div.title-box img{
+   max-width: 100%;
+   height: 190px;
+   object-fit: contain;
+}
+
+h1{
+    font-family:Ballet;
+    font-size: 48px;
+   
+    
+    
+}
+p{
+   font-family: tangerine;
+   font-size: 60px;
+}
+
+
+
+.slider{
+   overflow: hidden;
+   width: 500px;
+   height: auto;
+   margin: 0 auto;
+}
+
+   
+  
+
+@keyframes glisse{
+   0%{
+      transform: translateX(0);
+   }
+   25%{
+      transform: translateX(-350px);
+   }
+   50%{
+      transform: translateX(0);
+   }
+   75%{
+      transform: translateX(350px);
+   }
+   
+   100%{
+      transform: translateX(0);
+   }
+}
+.animated-element{
+   display: flex;
+   animation: glisse 10s ease-in-out infinite;
+}
+.animated-element img {
+   width: 300px;
+   height: auto;
+}
+div.menu table{
+   margin: 50px auto;
+   border-collapse: collapse;
+   width: 50%;
+   background-color: rgb(112, 130, 134);
+   
+}
+div.menu th{
+   background-color:black;
+   color: aliceblue;
+   font-size: 24px;
+   padding: 15px;
+   text-align: center;
+}
+div.menu td{
+   text-align: center;
+   padding: 10px;
+   flex-direction: column;
+}
+div.menu tbody{
+   display: flex;
+}
+div.menu td img{
+   width: 280px;
+   height: auto;
+   border-radius: 8px;
+   transition: transform 0.3s ease;
+
+}
+div.menu figcaption{
+   font-family: Merienda;
+   font-size: 25px;
+} 
+
+body.menu-pizza{
+   background-color: bisque;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0;
+   height: 100vh;
+}
+
+menu-pizza h1{
+     color: rgb(255, 0, 0);
+     text-align: center;
+     margin-bottom: 20px;
+     font-family: Tangerine;
+   
+}
+.menu-pizza table{
+   width: 100%;
+   border-collapse: collapse;
+   margin: 0;
+   background-color: rgb(223, 12, 12);
+   font-family: Tangerine;
+   font-size: 16px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.menu-pizza th{
+   background-color: bisque;
+   color: rgb(32, 3, 133);
+   padding: 15px;
+   text-align: center;
+}
+.menu-pizza td{
+   background-color: #a3c9a8;
+   padding: 15px;
+   text-align: center;
+   border: 1px solide #f4e8c1 ;
+}
+.menu-pizza img{
+   width: 100px;
+   height: auto;
+   border-radius: 8px;
+   transition: transform 0.3s;
+}
+.menu-pizza img:hover {
+   transform: scale(3);
+   z-index: 10;
+}
+menu-sandwich h1{
+   color: blue;
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: Tangerine;
+ 
+}
+.menu-sandwich table{
+ width: 100%;
+ border-collapse: collapse;
+ margin: 0;
+ background-color: rgb(223, 12, 12);
+ font-family: Tangerine;
+ font-size: 16px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.menu-sandwich th{
+ background-color: bisque;
+ color: rgb(32, 3, 133);
+ padding: 15px;
+ text-align: center;
+}
+.menu-sandwich td{
+ background-color: #a3c9a8;
+ padding: 15px;
+ text-align: center;
+ border: 1px solide #f4e8c1;
+}
+.menu-sandwich img{
+ width: 100px;
+ height: auto;
+ border-radius: 8px;
+ transition: transform 0.3s;
+}
+.menu-sandwich img:hover {
+ transform: scale(3);
+ z-index: 10;
+}
+menu-burger h1{
+   color: blue;
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: Tangerine;
+ 
+}
+.menu-burger  table{
+ width: 100%;
+ border-collapse: collapse;
+ margin: 0;
+ background-color: rgb(223, 12, 12);
+ font-family: Tangerine;
+ font-size: 16px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.menu-burger  th{
+ background-color: bisque;
+ color: rgb(32, 3, 133);
+ padding: 15px;
+ text-align: center;
+}
+.menu-burger  td{
+ background-color: #a3c9a8;
+ padding: 15px;
+ text-align: center;
+ border: 1px solide #f4e8c1;
+}
+.menu-burger  img{
+ width: 100px;
+ height: auto;
+ border-radius: 8px;
+ transition: transform 0.3s;
+}
+.menu-burger  img:hover {
+ transform: scale(3);
+ z-index: 10;
+}
+body.menu-burger{
+   background-color: rgb(82, 164, 236);
+}
+ 
+menu-boisson h1{
+   color: blue;
+   text-align: center;
+   margin-bottom: 20px;
+   font-family: Tangerine;
+ 
+}
+
+
+
+.menu-boisson  th{
+ background-color: bisque;
+ color: rgb(32, 3, 133);
+ padding: 25px;
+ text-align: center;
+}
+.menu-boisson  td{
+ background-color: #a3c9a8;
+ padding: 20px;
+ text-align: center;
+ border: 1px solide #f4e8c1;
+}
+.menu-boisson  img{
+ width: 150px;
+ height: auto;
+ border-radius: 8px;
+ transition: transform 0.3s;
+}
+.menu-boisson  img:hover {
+ transform: scale(3);
+ z-index: 10;
+}
+
+
+p.offre{
+   color: red;
+}
+
+dl.menuR {
+  color: red;
+}
+
+
+
+
